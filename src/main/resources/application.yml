@@ -1,2 +1,2 @@
-spring:  application:    name: fdxConfigServerserver:  port: 8888 eureka:  client:    register-with-eureka: true    fetch-registry: true    service-url:       defaultZone: https://eurekaserverfdx.cfapps.io/eureka#      defaultZone: http://localhost:8761/eureka  
+spring:  application:    name: fdxConfigServer  cloud:    config:      server:        git:          uri: https://github.com/vijay-navarkar/Git_Fdx_Config_Repositry.gitserver:  port: 8888 eureka:  client:    register-with-eureka: true    fetch-registry: true    service-url:       defaultZone: https://eurekaserverfdx.cfapps.io/eureka#      defaultZone: http://localhost:8761/eureka  
 
